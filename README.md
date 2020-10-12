@@ -9,9 +9,9 @@ Provisionar a infra estrutura com deploy simples de pagina web "HelloWorld"
 export DO_API_TOKEN=XXXXXXXXXXXXXXX
 ```
 
-2. Execute o playbook.yml
+2. Execute o playbook droplet.yml para criar o Droplet na Digital Ocean
 ```
-ansible-playbook playbook.yml
+ansible-playbook droplet.yml
 ```
 
 Saida do Playbook deverá ser algo como 
@@ -42,6 +42,12 @@ ok: [localhost]
 PLAY RECAP ***********************************************************************************************************************************************************************************************************************
 localhost                  : ok=6    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 
+```
+
+3. Execute o playbook playbook.yml para provisionar o ambiente de deploy e monitoring.
+
+```
+ansible-playbook playbook.yml
 ```
 
 
