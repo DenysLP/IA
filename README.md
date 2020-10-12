@@ -8,6 +8,7 @@ Executar o playbook ansible.
 Dependências
 ------------
 ```
+Criar um conta na Digital Ocean
 Ansible 2.x
 Terraform 13.x
 ```
