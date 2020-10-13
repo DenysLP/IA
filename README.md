@@ -110,7 +110,13 @@ PLAY RECAP *********************************************************************
 
 5. Após toda configuração e integração, todo push realizado no projeto Automaticamente aplica a mudança no ambiente:
 
+![](/images/image8.PNG)
 
+![](/images/image9.PNG)
+
+![](/images/image10.PNG)
+
+![](/images/image11.PNG)
 
 
 Dependências
