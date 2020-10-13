@@ -44,7 +44,7 @@ localhost                  : ok=6    changed=2    unreachable=0    failed=0    s
 
 ```
 
-![](/image1.PNG)
+![](/images/image1.PNG)
 
 
 3. Execute o playbook playbook.yml para provisionar o ambiente (Docker, Jenkins, Gitlab).
@@ -92,20 +92,20 @@ PLAY RECAP *********************************************************************
 
 4.1 Crie o token do Gitlab
 
-![](/image2.PNG)
+![](/images/image2.PNG)
 
 
 4.2 Crie/Configure plugins, Job, credenciais, e integração no Jenkins (Obs: Pode ser automatizada também quando se tem um job template no Jenkins)
 
-![](/image3.PNG)
+![](/images/image3.PNG)
 
-![](/image4.PNG)
+![](/images/image4.PNG)
 
-![](/image5.PNG)
+![](/images/image5.PNG)
 
-![](/image6.PNG)
+![](/images/image6.PNG)
 
-![](/image7.PNG)
+![](/images/image7.PNG)
 
 
 
