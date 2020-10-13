@@ -11,7 +11,7 @@ export DO_API_TOKEN=XXXXXXXXXXXXXXX
 
 2. Execute o playbook droplet.yml para criar o Droplet na Digital Ocean
 ```
-ansible-playbook droplet.yml
+ansible-playbook -i hosts droplet.yml
 ```
 
 Saida do Playbook deverá ser algo como 
@@ -44,10 +44,10 @@ localhost                  : ok=6    changed=2    unreachable=0    failed=0    s
 
 ```
 
-3. Execute o playbook playbook.yml para provisionar o ambiente de deploy e monitoring.
+3. Execute o playbook playbook.yml para provisionar o ambiente (Jenkins, Gitlab).
 
 ```
-ansible-playbook playbook.yml
+ansible-playbook -i hosts playbook.yml
 ```
 
 
