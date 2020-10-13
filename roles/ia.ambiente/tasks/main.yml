@@ -1,0 +1,11 @@
+---
+
+- name: Copiando docker-compose.yml
+  copy:
+    src: docker-compose.yml
+    dest: /opt
+
+- name: Exeutando docker-compose.yml
+  shell: docker-compose up -d
+  args:
+    chdir: /opt

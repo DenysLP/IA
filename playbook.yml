@@ -1,0 +1,7 @@
+---
+
+- hosts: docker
+  become: true
+  roles:
+    - ia.docker
+    - ia.ambiente

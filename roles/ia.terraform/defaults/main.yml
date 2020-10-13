@@ -1,0 +1,8 @@
+---
+
+droplet_droplet_size: "4gb"
+droplet_droplet_image: "ubuntu-18-04-x64"
+droplet_region: "nyc1"
+droplet_wait_timeout: 500
+droplet_unique_name: yes
+droplet_private_networking: no
