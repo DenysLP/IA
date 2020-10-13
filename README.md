@@ -44,7 +44,7 @@ localhost                  : ok=6    changed=2    unreachable=0    failed=0    s
 
 ```
 
-![Test Image 3](/image1.png)
+![](/image1.PNG)
 
 3. Execute o playbook playbook.yml para provisionar o ambiente (Jenkins, Gitlab).
 
