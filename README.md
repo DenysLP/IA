@@ -119,6 +119,17 @@ PLAY RECAP *********************************************************************
 ![](/images/image11.PNG)
 
 
+6. Monitoramento (Obs: Devido ao tempo e por esta um pouco corrido utilizei o codigo https://github.com/stefanprodan/dockprom) 
+
+![](/images/image12.PNG)
+
+![](/images/image13.PNG)
+
+![](/images/image14.PNG)
+
+![](/images/image15.PNG)
+
+
 Dependências
 ------------
 ```
